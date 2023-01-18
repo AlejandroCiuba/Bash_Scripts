@@ -60,3 +60,4 @@ repo2
 ```text
 alias check="<FILEPATH>/git_checker.sh -l '<FILEPATH>/repository_list.txt'"
 ```
+**NOTE:** This should be the **ABSOLUTE PATH** fully written out (no `~/`), example: `-l '/home/${USERNAME}/lists/repository_list.txt`
