@@ -22,6 +22,8 @@ machine_learning=("sklearn" "transformers" "datasets" "evaluate" "torchmetrics")
 natural_language_processing=("nltk" "bs4" "jiwer")
 
 wave_files=("wave" "PyDub")
+
+YOUR_GROUP=("PACKAGE01" "PACKAGE02" "PACKAGE03")
 ```
 
 To contain more packages, if you wish to add more groups:
