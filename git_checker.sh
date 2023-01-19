@@ -53,7 +53,6 @@ do
 
         ? ) echo "No command given. Please use -h for help."
             exit ;;
-
     esac
 done
 
@@ -62,7 +61,6 @@ if [[ ${repo_list} = "NA" ]]
 then
     echo "No repository list given, exiting..."
     exit 1
-
 fi
 
 echo "================================================="
@@ -115,5 +113,4 @@ do
             git push
         fi
     fi
-
 done < ${repo_list}
