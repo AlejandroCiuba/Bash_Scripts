@@ -86,7 +86,7 @@ do
     then
         echo "${status}"
     else
-        if [[ ! ${status} =~ ${re} ]]
+        if [[ ! ${status} =~ ${re} ]] && [[ ! ${rp} -eq 1 ]]
         then
             echo "${status}"
         fi
