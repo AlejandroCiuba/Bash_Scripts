@@ -75,21 +75,22 @@ do
 
     echo "================================================="
     echo "Checking ${repo_name}"
-    echo ""
 
     cd ~
     cd ${repo}
 
     status=`git status`
 
-    fetch=`git fetch --dry-run``
+    fetch=`git fetch --dry-run`
     
     if [ ${dnc} -eq 0 ]
     then
+        echo ""
         echo "${status}"
     else
-        if [[ ! ${status} =~ ${re} ]] && [[ ! ${rp} -eq 1 ]]
+        if [[ ! ${status} =~ ${re} ]] && [[ ! ${rp} -eq 1 ]] && [[ ${fetch} != "\n" ]]
         then
+            echo ""
             echo "${status}"
         fi
     fi
