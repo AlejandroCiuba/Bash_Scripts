@@ -5,7 +5,7 @@ essentials=("numpy" "pandas" "matplotlib" "seaborn" "jupyter" "PyPDF2" "requests
 
 machine_learning=("sklearn" "transformers" "datasets" "evaluate" "torchmetrics")
 
-natural_language_processing=("nltk" "bs4" "jiwer")
+natural_language_processing=("nltk" "bs4" "jiwer" "gensim")
 
 wave_files=("wave" "PyDub")
 

@@ -81,6 +81,8 @@ do
     cd ${repo}
 
     status=`git status`
+
+    fetch=`git fetch --dry-run``
     
     if [ ${dnc} -eq 0 ]
     then
