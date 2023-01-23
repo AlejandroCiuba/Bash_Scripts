@@ -7,7 +7,7 @@ machine_learning=("sklearn" "transformers" "datasets" "evaluate" "torchmetrics")
 
 natural_language_processing=("nltk" "bs4" "jiwer" "gensim")
 
-wave_files=("wave" "PyDub")
+wave_files=("wave" "PyDub" "simpleaudio")
 
 display_package_sets() {
 	echo ""
