@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Things to download
-essentials=("numpy" "pandas" "matplotlib" "seaborn" "jupyter" "PyPDF2" "requests")
+essentials=("numpy" "pandas" "matplotlib" "seaborn" "jupyter" "PyPDF2" "requests" "pytest")
 
 machine_learning=("sklearn" "transformers" "datasets" "evaluate" "torchmetrics")
 
