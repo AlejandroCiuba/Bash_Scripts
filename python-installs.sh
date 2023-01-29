@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 # Things to download
-essentials=("numpy" "pandas" "matplotlib" "seaborn" "jupyter" "PyPDF2" "requests" "pytest")
+essentials=("numpy" "pandas" "matplotlib" "seaborn" "jupyter" "PyPDF2" "requests" "pytest" "cython")
 
-machine_learning=("sklearn" "transformers" "datasets" "evaluate" "torchmetrics")
+machine_learning=("sklearn" "transformers" "datasets" "evaluate" "torchmetrics" "tqdm")
 
 natural_language_processing=("nltk" "bs4" "jiwer" "gensim")
 
