@@ -23,11 +23,17 @@ display_package_sets() {
 }
 
 download() {
-	arr=($@) # Gets all variables as array
+
+	# Gets all variables as array
+	arr=($@) 
+
+	# Get the python installation for the current shell
+	path=`which python`
+	echo "${path}"
 
 	for package in ${arr[@]}
 	do
-		python -m pip install ${package}
+		"${path}python -m pip install ${package}"
 	done
 }
 
