@@ -24,10 +24,10 @@ display_package_sets() {
 
 download() {
 	arr=($@) # Gets all variables as array
-	
+
 	for package in ${arr[@]}
-	do	
-		pip install ${package}
+	do
+		python -m pip install ${package}
 	done
 }
 
