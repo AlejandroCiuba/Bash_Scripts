@@ -29,7 +29,7 @@ download() {
 
 	# Get the python installation for the current shell
 	path=`which python`
-	echo "${path}"
+	echo "PATH: ${path}"
 
 	for package in ${arr[@]}
 	do
